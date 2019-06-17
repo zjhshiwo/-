@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$', view.hello),
    url(r'^testdb/', testdb.testdb),
    url(r'^index/', testdb.index),
+   url(r'^jd/', testdb.jd),
 ]
